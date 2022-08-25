@@ -1,10 +1,10 @@
 {
-  "name": "html5-css-boilerplate",
+  "name": "layout-designer-project-56",
   "version": "0.1.0",
-  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
+  "description": "Music Box project on Hexlet",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
+    "url": "https://github.com/valynka/layout-designer-project-56"
   },
   "main": "",
   "devDependencies": {
@@ -17,6 +17,6 @@
     "stylelint-scss": "^4.1.0",
     "surge": "^0.23.1"
   },
-  "author": "Nikita Mikhaylov",
+  "author": "Valeria Krasnykh",
   "license": "ISC"
 }
