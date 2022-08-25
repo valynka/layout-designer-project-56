@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+h1 {
+  font: 60px/90px "Roboto Bold", sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font: 38px/57px "Roboto Bold", sans-serif;
+  text-transform: uppercase;
+}
+
+body {
+  font: 18px/1.5 "Roboto Regular", sans-serif;
+  background: #08020d;
+  color: #cacaca;
+}
+
+/*# sourceMappingURL=style.css.map */
