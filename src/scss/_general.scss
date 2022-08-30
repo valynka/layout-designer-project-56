@@ -1,27 +1,66 @@
 @font-face {
-    font-weight: 400;
-    font-family: Roboto;
-    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: 400;
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
-    font-weight: 700;
-    font-family: Roboto;
-    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  font-weight: 700;
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin content-position-center {
+  margin: 0 auto;
+}
+
+@mixin container {
+  @include content-position-center;
+
+  max-width: calc(100% - 40px);
+
+  @media (min-width: 1240px) {
+    max-width: 1200px;
+  }
 }
 
 h1 {
-    font: bold 60px/90px Roboto, sans-serif;
-    text-transform: uppercase;
+  font: bold 60px/90px Roboto, sans-serif;
+  text-transform: uppercase;
+
+  @media (max-width: $max-width) {
+      font-size: 30px;
+      line-height: 45px;
+  }
 }
 
 h2 {
-    font: bold 38px/57px Roboto, sans-serif;
-    text-transform: uppercase;
+  font: bold 38px/57px Roboto, sans-serif;
+  text-transform: uppercase;
+
+  @media (max-width: $max-width) {
+      font-size: 18px;
+      line-height: 27px;
+  }
 }
 
 body {
-    font: 18px/1.5 Roboto, sans-serif;
-    background: $black;
-    color: $dark-grey;
+  @include reset;
+  
+  font: 18px/1.5 Roboto, sans-serif;
+  background: $black;
+  color: $dark-grey;    
+}
+
+.container {
+  @include container;
+}
+
+.flex {
+  display: flex;
 }
