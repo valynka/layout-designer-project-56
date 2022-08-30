@@ -14,7 +14,7 @@ header {
 		text-decoration: none;
 	}
 
-	@media (max-width: 870px) {
+	@media (max-width: $md-width) {
 		&.flex {
 			flex-direction: column;
 			gap: 18px;
@@ -55,7 +55,7 @@ header {
 		}
 	}
 
-	@media (max-width: $max-width) {
+	@media (max-width: $phone-width) {
 		&.flex {
 			flex-direction: column;
 			gap: 3px;
@@ -86,7 +86,7 @@ header {
 		align-items: center;
 	}
 
-	@media (max-width: 870px) {
+	@media (max-width: $md-width) {
 		position: static;
 	}
 }

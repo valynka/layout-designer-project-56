@@ -11,6 +11,8 @@
 h1 {
   font: bold 60px/90px Roboto, sans-serif;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 @media (max-width: 454px) {
   h1 {
@@ -22,6 +24,8 @@ h1 {
 h2 {
   font: bold 38px/57px Roboto, sans-serif;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 @media (max-width: 454px) {
   h2 {
@@ -30,10 +34,35 @@ h2 {
   }
 }
 
+h3 {
+  font: 400 24px/45px Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 454px) {
+  h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+}
+
+h4 {
+  font: bold 18px/27px Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 454px) {
+  h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
-  font: 18px/1.5 Roboto, sans-serif;
+  font: 16px/1.5 Roboto, sans-serif;
   background: #08020D;
   color: #CACACA;
 }
@@ -133,6 +162,100 @@ header a {
 @media (max-width: 870px) {
   .search {
     position: static;
+  }
+}
+
+footer {
+  margin-top: 200px;
+  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
+}
+footer hr {
+  color: #CACACA;
+}
+footer a {
+  text-decoration: none;
+  color: #E0E0E0;
+}
+
+.footer-top {
+  margin: 0 auto;
+  max-width: calc(100% - 40px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding-top: 62px;
+  padding-bottom: 72px;
+}
+@media (min-width: 1240px) {
+  .footer-top {
+    max-width: 1200px;
+  }
+}
+.footer-top h4 {
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-top a {
+  display: block;
+}
+.footer-top p {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 870px) {
+  .footer-top {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 454px) {
+  .footer-top {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+}
+
+.social.flex {
+  gap: 24px;
+}
+.social .google {
+  width: 26px;
+  height: 17px;
+  background: url(../images/Google+.png);
+}
+.social .twitter {
+  width: 22px;
+  height: 19px;
+  background: url(../images/Twitter.png);
+}
+.social .facebook {
+  width: 12px;
+  height: 20px;
+  background: url(../images/Facebook.png);
+}
+.social .instagram {
+  width: 19px;
+  height: 20px;
+  background: url(../images/Instagram.png);
+}
+
+.footer-bottom {
+  margin: 0 auto;
+  max-width: calc(100% - 40px);
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+@media (min-width: 1240px) {
+  .footer-bottom {
+    max-width: 1200px;
+  }
+}
+.footer-bottom.flex {
+  gap: 16px;
+}
+@media (max-width: 454px) {
+  .footer-bottom.flex {
+    flex-direction: column;
   }
 }
 
