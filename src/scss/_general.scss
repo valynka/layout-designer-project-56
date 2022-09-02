@@ -42,10 +42,16 @@
 }
 
 .btn {
+  display: block;
   color: $main-text-color;
   background: none;
   border: none;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.ta-center {
+  text-align: center;
 }
 
 .br-radius-3 {
@@ -84,6 +90,33 @@
   background: $red;
 }
 
+.text-sm {
+  font-size: $text-sm;
+}
+
+.text-2 {
+  font-size: $text-2;
+}
+
+.text-3 {
+  font-size: $text-3;
+}
+
+.text-4 {
+  font-size: $text-4;
+}
+
+.text-5 {
+  font-size: $text-5;
+}
+
+.text-6 {
+  font-size: $text-6;
+}
+
+.text-7 {
+  font-size: $text-7;
+}
 
 h1 {
   font: bold 60px/90px Roboto, sans-serif;
