@@ -6,14 +6,6 @@ header {
 	right: 0;
 	left: 0;
 
-	a {
-		color: $dark-grey;
-		font-size: $text-sm;
-		line-height: 16px;
-		text-transform: uppercase;
-		text-decoration: none;
-	}
-
 	@media (max-width: $md-width) {
 		&.flex {
 			flex-direction: column;
@@ -35,10 +27,6 @@ header {
 
 		margin-right: 16px;
 	}
-
-	a {
-		color: #fff;
-	}
 }
 
 .links {
@@ -49,12 +37,6 @@ header {
 		align-items: center;
 	}
 
-	a {
-		&:hover {
-			color: #fff;
-		}
-	}
-
 	@media (max-width: $phone-width) {
 		&.flex {
 			flex-direction: column;
@@ -62,6 +44,11 @@ header {
 			align-items: flex-start;
 		}
 	}
+}
+
+.header-link {
+	font-size: $text-sm;
+	line-height: 16px;
 }
 
 .search {
@@ -74,7 +61,7 @@ header {
 		height: 25px;
 		padding: 5px 10px;
 
-		color: $very-dark-grey;
+		color: $dark-grey;
 
 		background: $dark;
 		border: none;

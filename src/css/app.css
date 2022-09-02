@@ -8,6 +8,57 @@
   font-family: Roboto;
   src: url(../fonts/Roboto/Roboto-Bold.ttf);
 }
+.link {
+  text-decoration: none;
+  color: #CACACA;
+}
+.link:hover {
+  color: #fff;
+}
+
+.btn {
+  color: #CACACA;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.br-radius-3 {
+  border-radius: 3px;
+}
+
+.br-radius-5 {
+  border-radius: 5px;
+}
+
+.br-radius-32 {
+  border-radius: 32px;
+}
+
+.border-main-color {
+  border: 1px solid #CACACA;
+}
+
+.border-white {
+  border: 1px solid #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bg-green {
+  background: #34C176;
+}
+
+.bg-red {
+  background: #95390C;
+}
+
 h1 {
   font: bold 60px/90px Roboto, sans-serif;
   text-transform: uppercase;
@@ -94,13 +145,6 @@ header {
     max-width: 1200px;
   }
 }
-header a {
-  color: #CACACA;
-  font-size: 12.8px;
-  line-height: 16px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
 @media (max-width: 870px) {
   header.flex {
     flex-direction: column;
@@ -119,9 +163,6 @@ header a {
   height: 24px;
   margin-right: 16px;
 }
-.logo a {
-  color: #fff;
-}
 
 .links {
   margin-right: 40px;
@@ -130,15 +171,17 @@ header a {
   gap: 24px;
   align-items: center;
 }
-.links a:hover {
-  color: #fff;
-}
 @media (max-width: 454px) {
   .links.flex {
     flex-direction: column;
     gap: 3px;
     align-items: flex-start;
   }
+}
+
+.header-link {
+  font-size: 12.8px;
+  line-height: 16px;
 }
 
 .search {
@@ -166,15 +209,17 @@ header a {
 }
 
 footer {
-  margin-top: 200px;
-  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
+  background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 }
 footer hr {
   color: #CACACA;
 }
 footer a {
-  text-decoration: none;
   color: #E0E0E0;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
 }
 
 .footer-top {
@@ -193,8 +238,8 @@ footer a {
 }
 .footer-top h4 {
   text-transform: uppercase;
-  color: #fff;
   margin-bottom: 16px;
+  color: #fff;
 }
 .footer-top a {
   display: block;
@@ -221,22 +266,22 @@ footer a {
 .social .google {
   width: 26px;
   height: 17px;
-  background: url(../images/Google+.png);
+  background: url("../images/Google+.png");
 }
 .social .twitter {
   width: 22px;
   height: 19px;
-  background: url(../images/Twitter.png);
+  background: url("../images/Twitter.png");
 }
 .social .facebook {
   width: 12px;
   height: 20px;
-  background: url(../images/Facebook.png);
+  background: url("../images/Facebook.png");
 }
 .social .instagram {
   width: 19px;
   height: 20px;
-  background: url(../images/Instagram.png);
+  background: url("../images/Instagram.png");
 }
 
 .footer-bottom {
@@ -257,6 +302,47 @@ footer a {
   .footer-bottom.flex {
     flex-direction: column;
   }
+}
+
+.banner {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.reg-form {
+  margin: 0 auto;
+  max-width: 570px;
+}
+.reg-form .flex {
+  justify-content: space-between;
+}
+@media (max-width: 870px) {
+  .reg-form .flex {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+}
+.reg-form input {
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 50px;
+  border-width: 2px;
+  box-sizing: border-box;
+  background: none;
+}
+.reg-form input::placeholder {
+  color: #fff;
+}
+.reg-form .btn {
+  width: 100%;
+  height: 57px;
+  padding: 20px 30px;
+  margin-top: 24px;
 }
 
 /*# sourceMappingURL=app.css.map */

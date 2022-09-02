@@ -11,43 +11,58 @@
     <header class="flex">
         <div class="logo flex">
             <img src="images/logo.svg" alt="music box logo">
-            <a href="#" >Music Box</a>
+            <a href="#" class="link text-white">Music Box</a>
         </div>
         <div class="links flex">
-            <a href="#">Главная</a>
-            <a href="#">Каталог</a>
-            <a href="#">Исполнители</a>
-            <a href="#">Контакты</a>
+            <a href="#" class="link header-link uppercase">Главная</a>
+            <a href="#" class="link header-link uppercase">Каталог</a>
+            <a href="#" class="link header-link uppercase">Исполнители</a>
+            <a href="#" class="link header-link uppercase">Контакты</a>
         </div>
         <div class="search flex">
             <input type="text" name="search" placeholder="Поиск...">
         </div>
     </header>
 
+    <section id="page-description" class="banner text-white">
+        <div class="container">
+            <h1>Онлайн музыка где угодно</h1>
+            <h2>без ограничений</h2>
+            <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+            <form class="reg-form" action="">
+                <div class="flex">
+                    <input type="text" name="name" placeholder="Имя" class="br-radius-3 border-main-color">
+                    <input type="email" name="email" placeholder="Email" class="br-radius-3 border-main-color">
+                </div>                
+                <button class="btn br-radius-5 bg-green text-white uppercase" type="submit">Получить доступ</button>
+            </form>
+        </div>        
+    </section>
+
     <footer>
         <div class="footer-top">
             <div class="about">
-                <h4>О нас</h4>
-                <a href="#">История компании</a>
-                <a href="#">Карьера</a>
-                <a href="#">Особенности</a>
-                <a href="#">Пресса</a>
+                <h4 class="text-white">О нас</h4>
+                <a href="#" class="link">История компании</a>
+                <a href="#" class="link">Карьера</a>
+                <a href="#" class="link">Особенности</a>
+                <a href="#" class="link">Пресса</a>
             </div>
             <div class="support">
                 <h4>Поддержка</h4>
-                <a href="#">База знаний</a>
-                <a href="#">Тарифы</a>
-                <a href="#">Мобильное приложение</a>
-                <a href="#">Условия использования</a>
+                <a href="#" class="link">База знаний</a>
+                <a href="#" class="link">Тарифы</a>
+                <a href="#" class="link">Мобильное приложение</a>
+                <a href="#" class="link">Условия использования</a>
             </div>
             <div class="contact">
-                <h4>Контакты</h4>
-                <a href="mailto:hello@music.box">hello@music.box</a>
+                <h4 class="text-white">Контакты</h4>
+                <a href="mailto:hello@music.box" class="link">hello@music.box</a>
                 <p>Russia, Moscow. Music Box studio</p>
-                <a href="tel:+74999999999">+ 7 499 999 99 99</a>
+                <a href="tel:+74999999999" class="link">+ 7 499 999 99 99</a>
             </div>
             <div class="subscribe">
-                <h4>Подписывайтесь</h4>
+                <h4 class="text-white">Подписывайтесь</h4>
                 <div class="social flex">
                     <a href="#" class="google"></a>
                     <a href="#" class="twitter"></a>
@@ -58,11 +73,11 @@
         </div>
         <hr>
         <div class="footer-bottom flex">
-            <a href="#">Магазин</a>
-            <a href="#">Обслуживание</a>
-            <a href="#">Блог</a>
-            <a href="#">Поддержка</a>
-            <a href="#">Контакты</a>
+            <a href="#" class="link">Магазин</a>
+            <a href="#" class="link">Обслуживание</a>
+            <a href="#" class="link">Блог</a>
+            <a href="#" class="link">Поддержка</a>
+            <a href="#" class="link">Контакты</a>
         </div>
     </footer>
 </body>
