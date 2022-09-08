@@ -1,0 +1,39 @@
+.app-section {
+
+	display: grid;
+	grid-template-areas:
+		"header header"
+		"content picture";
+	grid-template-columns: repeat(2, 1fr);
+	margin-bottom: 100px;
+	padding-top: 100px;
+
+	@media (max-width: $md-width) {
+		grid-template-areas:
+			"header header"
+			"picture picture"
+			"content content";
+	}
+
+	h2 {
+		grid-area: header;
+		margin-bottom: 48px;
+	}
+
+	.app-content {
+		grid-area: content;
+	}
+
+	.btn {
+		padding: 16px 40px;
+	}
+
+	img {
+		grid-area: picture;
+		margin-left: 24%;
+
+		@media (max-width: $md-width) {
+			margin-left: 0;
+		}
+	}
+}

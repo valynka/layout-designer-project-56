@@ -187,7 +187,7 @@ header {
     max-width: 1200px;
   }
 }
-@media (max-width: 870px) {
+@media (max-width: 880px) {
   header.flex {
     flex-direction: column;
     gap: 18px;
@@ -244,7 +244,7 @@ header {
 .search.flex {
   align-items: center;
 }
-@media (max-width: 870px) {
+@media (max-width: 880px) {
   .search {
     position: static;
   }
@@ -286,7 +286,7 @@ footer a {
   margin: 0;
   padding: 0;
 }
-@media (max-width: 870px) {
+@media (max-width: 880px) {
   .footer-top {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -357,7 +357,7 @@ footer a {
 .reg-form .flex {
   justify-content: space-between;
 }
-@media (max-width: 870px) {
+@media (max-width: 880px) {
   .reg-form .flex {
     flex-direction: column;
     gap: 24px;
@@ -396,7 +396,7 @@ footer a {
   gap: 50px;
   justify-content: space-between;
 }
-@media (max-width: 870px) {
+@media (max-width: 880px) {
   .pricing.flex {
     flex-direction: column;
     align-items: center;
@@ -451,7 +451,7 @@ footer a {
 .news-item.flex {
   gap: 50px;
 }
-@media (max-width: 870px) {
+@media (max-width: 880px) {
   .news-item.flex {
     flex-direction: column;
   }
@@ -467,7 +467,7 @@ footer a {
 .news-item-img img {
   width: 100%;
 }
-@media (max-width: 870px) {
+@media (max-width: 880px) {
   .news-item-img img {
     max-width: 570px;
   }
@@ -476,7 +476,7 @@ footer a {
 .news-content {
   flex-basis: 575px;
 }
-@media (max-width: 870px) {
+@media (max-width: 880px) {
   .news-content {
     flex-basis: 100%;
   }
@@ -489,12 +489,44 @@ footer a {
 .news-footer .btn {
   box-sizing: border-box;
   width: 135px;
-  padding: 16px 30px;
   margin-top: 48px;
+  padding: 16px 30px;
 }
 
 .news-author.flex {
   gap: 16px;
+}
+
+.app-section {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "header header" "content picture";
+}
+@media (max-width: 880px) {
+  .app-section {
+    grid-template-areas: "header header" "picture picture" "content content";
+  }
+}
+.app-section h2 {
+  grid-area: header;
+  margin-bottom: 48px;
+}
+.app-section .app-content {
+  grid-area: content;
+}
+.app-section .btn {
+  padding: 16px 40px;
+}
+.app-section img {
+  margin-left: 24%;
+  grid-area: picture;
+}
+@media (max-width: 880px) {
+  .app-section img {
+    margin-left: 0;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
