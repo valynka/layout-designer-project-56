@@ -78,6 +78,10 @@
   color: #fff;
 }
 
+.text-orange {
+  color: $orange;
+}
+
 .uppercase {
   @include capitalize;
 }
@@ -175,4 +179,8 @@ body {
 
 .flex {
   display: flex;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
 }
