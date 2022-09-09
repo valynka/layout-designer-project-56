@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
     <title>layout-designer-project-56 valinka</title>
 </head>
 <body>
-    
+    <header class="flex">
+        <div class="logo flex">
+            <img src="images/logo.svg" alt="music box logo">
+            <a href="#" class="link header-link text-xs uppercase text-white">Music Box</a>
+        </div>
+        <div class="links text-xs flex">
+            <a href="#" class="link header-link uppercase">Главная</a>
+            <a href="#" class="link header-link uppercase">Каталог</a>
+            <a href="#" class="link header-link uppercase">Исполнители</a>
+            <a href="#" class="link header-link uppercase">Контакты</a>
+        </div>
+        <div class="search flex">
+            <input type="text" name="search" placeholder="Поиск...">
+        </div>
+    </header>
+
+    <section id="page-description" class="artist-info bg-center bg-cover text-white">
+        <div class="container">
+            <h1 class="uppercase">Morten Harket</h1>
+            <p>24 875 поклонников</p>
+            <div class="artist-info-buttons flex">
+                <button class="btn br-radius-5 bg-purple flex text-sm text-white">
+                    <img src="images/play-button.svg" alt="play button">
+                    <div class="artist-info-btn-text uppercase">МИКС</div>
+                </button>
+                <button class="btn br-radius-5 bg-red flex text-sm text-white">
+                    <img src="images/heart.svg" alt="heart">
+                    <div class="artist-info-btn-text uppercase">В ИЗБРАННОЕ</div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="about">
+                <h4 class="text-white">О нас</h4>
+                <a href="#" class="link">История компании</a>
+                <a href="#" class="link">Карьера</a>
+                <a href="#" class="link">Особенности</a>
+                <a href="#" class="link">Пресса</a>
+            </div>
+            <div class="support">
+                <h4>Поддержка</h4>
+                <a href="#" class="link">База знаний</a>
+                <a href="#" class="link">Тарифы</a>
+                <a href="#" class="link">Мобильное приложение</a>
+                <a href="#" class="link">Условия использования</a>
+            </div>
+            <div class="contact">
+                <h4 class="text-white">Контакты</h4>
+                <a href="mailto:hello@music.box" class="link">hello@music.box</a>
+                <p>Russia, Moscow. Music Box studio</p>
+                <a href="tel:+74999999999" class="link">+ 7 499 999 99 99</a>
+            </div>
+            <div class="subscribe">
+                <h4 class="text-white">Подписывайтесь</h4>
+                <div class="social flex">
+                    <a href="#" class="google"></a>
+                    <a href="#" class="twitter"></a>
+                    <a href="#" class="facebook"></a>
+                    <a href="#" class="instagram"></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom flex">
+            <a href="#" class="link">Магазин</a>
+            <a href="#" class="link">Обслуживание</a>
+            <a href="#" class="link">Блог</a>
+            <a href="#" class="link">Поддержка</a>
+            <a href="#" class="link">Контакты</a>
+        </div>
+    </footer>
 </body>
 </html>

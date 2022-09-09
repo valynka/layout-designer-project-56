@@ -94,6 +94,18 @@
   background: $red;
 }
 
+.bg-purple {
+  background: $purple;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-cover {
+  background-size: cover;
+}  
+
 .text-xs {
   font-size: $text-xs;
 }

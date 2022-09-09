@@ -1,0 +1,39 @@
+.artist-info {
+	padding-top: 250px;
+	padding-bottom: 230px;
+
+	background-image: url("../images/Morten Harket.png");
+
+	@media (max-width: $md-width) {
+		padding-top: 225px;
+	}
+}
+
+.artist-info-buttons {
+	margin-top: 48px;
+
+	&.flex {
+		gap: 1.5rem;
+
+		@media (max-width: $md-width) {
+			flex-direction: column;
+		}
+	}
+
+	.btn {
+		width: 200px;
+		padding: 20px 30px;
+
+		line-height: 19.2px;
+
+		&.flex {
+			gap: 16px;
+		}
+	}
+
+	img {
+		width: 20px;
+
+		filter: invert(1);
+	}
+}
