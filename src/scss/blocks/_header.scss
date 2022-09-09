@@ -40,15 +40,14 @@ header {
 	@media (max-width: $phone-width) {
 		&.flex {
 			flex-direction: column;
-			gap: 3px;
+			gap: 1px;
 			align-items: flex-start;
 		}
 	}
 }
 
 .header-link {
-	font-size: $text-sm;
-	line-height: 16px;
+	line-height: 16.5px;
 }
 
 .search {
@@ -67,6 +66,10 @@ header {
 		border: none;
 		border-radius: 50px;
 		outline: none;
+
+		&::placeholder {
+			text-transform: uppercase;
+		}
 	}
 
 	&.flex {
