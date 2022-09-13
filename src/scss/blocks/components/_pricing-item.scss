@@ -1,0 +1,55 @@
+.pricing-item {
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+
+	border-radius: 1rem;
+
+	h3 {
+		margin-bottom: 200px;
+		padding-top: 20px;
+	}
+
+	.pricing-value {
+		margin-bottom: 40px;
+
+		&.flex {
+			gap: 16px;
+			justify-content: center;
+		}
+
+		.value {
+			line-height: 1em;
+		}
+
+		.currency {
+			align-self: flex-start;
+		}
+	}
+
+	.btn {
+		margin-bottom: 64px;
+		padding: 21px 30px;
+	}
+
+	&.bg-free {
+		background: url("../images/subscribe_1.png");
+		background-position: center;
+		background-size: cover;
+	}
+
+	&.bg-standard {
+		background: url("../images/subscribe_2.png");
+		background-position: center;
+		background-size: cover;
+	}
+
+	&.bg-premium {
+		background: url("../images/subscribe_3.png");
+		background-position: center;
+		background-size: cover;
+	}
+
+	.pricing-footer {
+		margin-bottom: 64px;
+	}
+}

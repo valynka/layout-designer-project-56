@@ -82,6 +82,10 @@
   color: $orange;
 }
 
+.text-grey {
+  color: $grey;
+}
+
 .uppercase {
   @include capitalize;
 }
@@ -136,6 +140,10 @@
 
 .text-7 {
   font-size: $text-7;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 h1 {

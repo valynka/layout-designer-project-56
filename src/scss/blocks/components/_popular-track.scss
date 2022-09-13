@@ -1,0 +1,26 @@
+.popular-track {
+    gap: 15px;
+    align-items: center;
+
+    img {
+        width: 55px;
+        height: 55px;
+    }
+
+}
+
+.track-info {
+    flex-grow: 1;
+
+    &.flex {
+        justify-content: space-between;
+    }
+
+    h3 {
+        line-height: 19.2px;
+    }
+
+    .time {
+        align-self: center;
+    }
+}
