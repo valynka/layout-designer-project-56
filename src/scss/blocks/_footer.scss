@@ -23,7 +23,7 @@ footer {
 	padding-bottom: 72px;
 
 	h4 {
-		@include capitalize;
+		@include uppercase;
 		margin-bottom: 16px;
 
 		color: #fff;
