@@ -82,6 +82,10 @@ header {
 		}
 	}
 
+	@media (max-width: 1239px) {
+		right: 20px;
+	}
+
 	@media (max-width: $md-width) {
 		position: static;
 	}

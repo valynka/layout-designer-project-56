@@ -182,7 +182,9 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: calc(100% - 40px);
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 @media (min-width: 1240px) {
   .container {
@@ -200,7 +202,9 @@ body {
 
 header {
   margin: 0 auto;
-  max-width: calc(100% - 40px);
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
   position: absolute;
   top: 25px;
   right: 0;
@@ -248,14 +252,15 @@ header {
   }
 }
 
-.header-link, .logo-text {
+.header-link,
+.logo-text {
   line-height: 16.5px;
 }
 
 .search {
   position: absolute;
-  right: 0;
   top: 6px;
+  right: 0;
 }
 .search input {
   box-sizing: border-box;
@@ -276,6 +281,11 @@ header {
 .search input::placeholder {
   text-transform: uppercase;
 }
+@media (max-width: 1239px) {
+  .search {
+    right: 20px;
+  }
+}
 @media (max-width: 905px) {
   .search {
     position: static;
@@ -295,7 +305,9 @@ footer a {
 
 .footer-top {
   margin: 0 auto;
-  max-width: calc(100% - 40px);
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
@@ -357,7 +369,9 @@ footer a {
 
 .footer-bottom {
   margin: 0 auto;
-  max-width: calc(100% - 40px);
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 40px;
   padding-bottom: 50px;
 }
