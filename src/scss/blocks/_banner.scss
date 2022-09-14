@@ -4,12 +4,13 @@
 
 	background-image: url("../images/banner.png");
 
-	@media (max-width: $md-width) {
-		padding-top: 250px;
+
+	h1 {
+		@include reset;
 	}
 
 	h2 {
-		margin-bottom: 31px;
+		margin-top: 0;
 
 		@media (max-width: $md-width) {
 			margin-bottom: 16px;

@@ -4,13 +4,13 @@
 	padding-top: 100px;
 
 	h2 {
-		margin-bottom: 48px;
+		margin-bottom: 50px;
 	}
 }
 
 .pricing {
 	&.flex {
-		gap: 50px;
+		gap: 47px;
 		justify-content: space-between;
 
 		@media (max-width: $md-width) {
@@ -19,5 +19,5 @@
 		}
 	}
 
-	margin-bottom: 43px;
+	margin-bottom: 40px;
 }
