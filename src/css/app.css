@@ -398,6 +398,11 @@ footer a {
   margin: 0;
   padding: 0;
 }
+@media (max-width: 905px) {
+  .banner h1 {
+    margin-top: 50px;
+  }
+}
 .banner h2 {
   margin-top: 0;
 }
@@ -447,8 +452,14 @@ footer a {
   box-sizing: border-box;
 }
 .pricing-item h3 {
-  margin-top: 18px;
   margin-bottom: 200px;
+  line-height: 36px;
+}
+@media (max-width: 454px) {
+  .pricing-item h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 .pricing-item .pricing-value {
   margin-bottom: 36px;
@@ -465,7 +476,7 @@ footer a {
 }
 .pricing-item .btn {
   margin-bottom: 64px;
-  padding: 21px 30px;
+  padding: 20px 30px;
 }
 .pricing-item.bg-free {
   background: url("../images/subscribe_1.png");
@@ -614,18 +625,17 @@ footer a {
 }
 
 .artist-info {
-  padding-top: 250px;
-  padding-bottom: 230px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: url("../images/Morten Harket.png");
 }
-@media (max-width: 905px) {
-  .artist-info {
-    padding-top: 225px;
-  }
+.artist-info h1 {
+  margin-bottom: 16px;
 }
 
 .artist-info-buttons {
-  margin-top: 48px;
+  margin-top: 50px;
+  margin-bottom: 1.5rem;
 }
 .artist-info-buttons.flex {
   gap: 1.5rem;
@@ -665,6 +675,7 @@ footer a {
 }
 .track-info h3 {
   line-height: 19.2px;
+  margin: 0;
 }
 .track-info .time {
   align-self: center;
@@ -701,6 +712,7 @@ footer a {
 .discography-info h3 {
   font-size: 18px;
   line-height: 27px;
+  margin: 0;
 }
 
 .discography-section {
@@ -744,6 +756,7 @@ footer a {
 .similar-info h3 {
   font-size: 18px;
   line-height: 27px;
+  margin: 0;
 }
 
 .similar-section {

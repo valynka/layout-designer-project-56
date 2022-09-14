@@ -4,9 +4,12 @@
 
 	background-image: url("../images/banner.png");
 
-
 	h1 {
 		@include reset;
+
+		@media (max-width: $md-width) {
+			margin-top: 50px;
+		}
 	}
 
 	h2 {

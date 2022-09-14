@@ -1,16 +1,17 @@
 .artist-info {
-	padding-top: 250px;
-	padding-bottom: 230px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 
 	background-image: url("../images/Morten Harket.png");
 
-	@media (max-width: $md-width) {
-		padding-top: 225px;
+	h1 {
+		margin-bottom: 16px;
 	}
 }
 
 .artist-info-buttons {
-	margin-top: 48px;
+	margin-top: 50px;
+	margin-bottom: 1.5rem;
 
 	&.flex {
 		gap: 1.5rem;
