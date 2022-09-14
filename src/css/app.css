@@ -211,7 +211,7 @@ header {
     max-width: 1200px;
   }
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   header.flex {
     flex-direction: column;
     gap: 18px;
@@ -270,7 +270,7 @@ header {
 .search.flex {
   align-items: center;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .search {
     position: static;
   }
@@ -313,7 +313,7 @@ footer a {
   margin: 0;
   padding: 0;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .footer-top {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -374,7 +374,7 @@ footer a {
   padding-bottom: 200px;
   background-image: url("../images/banner.png");
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .banner {
     padding-top: 250px;
   }
@@ -382,7 +382,7 @@ footer a {
 .banner h2 {
   margin-bottom: 31px;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .banner h2 {
     margin-bottom: 16px;
   }
@@ -395,7 +395,7 @@ footer a {
 .reg-form .flex {
   justify-content: space-between;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .reg-form .flex {
     flex-direction: column;
     gap: 24px;
@@ -479,7 +479,7 @@ footer a {
   gap: 50px;
   justify-content: space-between;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .pricing.flex {
     flex-direction: column;
     align-items: center;
@@ -492,7 +492,7 @@ footer a {
 .news-item.flex {
   gap: 50px;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .news-item.flex {
     flex-direction: column;
   }
@@ -514,7 +514,7 @@ footer a {
   flex-shrink: 2;
   align-self: center;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .news-item-img {
     flex-basis: 100%;
   }
@@ -522,7 +522,7 @@ footer a {
 .news-item-img img {
   width: 100%;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .news-item-img img {
     max-width: 570px;
   }
@@ -531,7 +531,7 @@ footer a {
 .news-content {
   flex-basis: 575px;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .news-content {
     flex-basis: 100%;
   }
@@ -566,7 +566,7 @@ footer a {
   margin-bottom: 100px;
   padding-top: 100px;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .app-section {
     grid-template-areas: "header header" "picture picture" "content content";
   }
@@ -585,7 +585,7 @@ footer a {
   grid-area: picture;
   margin-left: 24%;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .app-section img {
     margin-left: 0;
   }
@@ -596,7 +596,7 @@ footer a {
   padding-bottom: 230px;
   background-image: url("../images/Morten Harket.png");
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .artist-info {
     padding-top: 225px;
   }
@@ -608,7 +608,7 @@ footer a {
 .artist-info-buttons.flex {
   gap: 1.5rem;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .artist-info-buttons.flex {
     flex-direction: column;
   }
@@ -649,17 +649,60 @@ footer a {
 }
 
 .popular-track-section {
-  padding-top: 100px;
   display: grid;
   grid-template-columns: repeat(2, 46%);
   gap: 25px 50px;
+  padding-top: 100px;
 }
-@media (max-width: 880px) {
+@media (max-width: 905px) {
   .popular-track-section {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 .popular-track-section h2 {
+  grid-column: 1/-1;
+  margin-bottom: 23px;
+}
+
+.discography-item img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 12px;
+}
+@media (max-width: 600px) {
+  .discography-item img {
+    width: 137px;
+    height: 137px;
+  }
+}
+
+.discography-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.discography-section {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 25px 50px;
+}
+@media (max-width: 1210px) {
+  .discography-section {
+    grid-template-columns: repeat(3, 250px);
+  }
+}
+@media (max-width: 905px) {
+  .discography-section {
+    grid-template-columns: repeat(2, 250px);
+  }
+}
+@media (max-width: 600px) {
+  .discography-section {
+    grid-template-columns: repeat(2, 139px);
+  }
+}
+.discography-section h2 {
   grid-column: 1/-1;
   margin-bottom: 23px;
 }
