@@ -9,7 +9,7 @@ header {
 	@media (max-width: $md-width) {
 		&.flex {
 			flex-direction: column;
-			gap: 18px;
+			gap: 10px;
 		}
 	}
 }
@@ -30,7 +30,11 @@ header {
 }
 
 .links {
+	@include reset;
+
 	margin-right: 40px;
+
+	list-style-type: none;
 
 	&.flex {
 		gap: 24px;
@@ -46,12 +50,14 @@ header {
 	}
 }
 
-.header-link {
+.header-link,
+.logo-text {
 	line-height: 16.5px;
 }
 
 .search {
 	position: absolute;
+	top: 6px;
 	right: 0;
 
 	input {
@@ -67,13 +73,13 @@ header {
 		border-radius: 50px;
 		outline: none;
 
+		@media (max-width: $phone-width) {
+			width: 100%;
+		}
+
 		&::placeholder {
 			text-transform: uppercase;
 		}
-	}
-
-	&.flex {
-		align-items: center;
 	}
 
 	@media (max-width: $md-width) {
