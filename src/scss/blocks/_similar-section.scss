@@ -1,0 +1,28 @@
+@import "components/similar-item";
+
+.similar-section {
+
+	display: grid;
+	grid-template-columns: repeat(4, 250px);
+
+	gap: 25px 50px;
+	margin-bottom: 100px;
+	padding-top: 100px;
+
+	@media (max-width: 1210px) {
+		grid-template-columns: repeat(3, 250px);
+	}
+
+	@media (max-width: $md-width) {
+		grid-template-columns: repeat(2, 250px);
+	}
+
+	@media (max-width: 600px) {
+		grid-template-columns: repeat(2, 139px);
+	}
+
+	h2 {
+		grid-column: 1/-1;
+		margin-bottom: 23px;
+	}
+}

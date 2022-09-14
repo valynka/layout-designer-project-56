@@ -682,10 +682,10 @@ footer a {
 }
 
 .discography-section {
-  padding-top: 100px;
   display: grid;
   grid-template-columns: repeat(4, 250px);
   gap: 25px 50px;
+  padding-top: 100px;
 }
 @media (max-width: 1210px) {
   .discography-section {
@@ -703,6 +703,50 @@ footer a {
   }
 }
 .discography-section h2 {
+  grid-column: 1/-1;
+  margin-bottom: 23px;
+}
+
+.similar-item img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 12px;
+}
+@media (max-width: 600px) {
+  .similar-item img {
+    width: 137px;
+    height: 137px;
+  }
+}
+
+.similar-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.similar-section {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 25px 50px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+@media (max-width: 1210px) {
+  .similar-section {
+    grid-template-columns: repeat(3, 250px);
+  }
+}
+@media (max-width: 905px) {
+  .similar-section {
+    grid-template-columns: repeat(2, 250px);
+  }
+}
+@media (max-width: 600px) {
+  .similar-section {
+    grid-template-columns: repeat(2, 139px);
+  }
+}
+.similar-section h2 {
   grid-column: 1/-1;
   margin-bottom: 23px;
 }
