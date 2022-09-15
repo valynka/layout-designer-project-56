@@ -245,6 +245,9 @@ header {
   align-items: center;
 }
 @media (max-width: 454px) {
+  .links li {
+    width: 100%;
+  }
   .links.flex {
     flex-direction: column;
     gap: 1px;
@@ -321,10 +324,11 @@ footer a {
     padding-right: 0;
   }
 }
-.footer-top h4 {
-  text-transform: uppercase;
+.footer-top h2 {
+  font-size: 18px;
+  line-height: 27px;
   margin-bottom: 16px;
-  color: #fff;
+  margin-top: 0;
 }
 .footer-top a {
   display: block;
@@ -506,8 +510,8 @@ footer a {
   padding-top: 100px;
 }
 .pricing-section h2 {
-  margin-bottom: 50px;
   margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .pricing {
@@ -595,8 +599,8 @@ footer a {
   padding-top: 100px;
 }
 .news-section h2 {
-  margin-bottom: 48px;
   margin-top: 0;
+  margin-bottom: 48px;
 }
 
 .app-section {
@@ -613,8 +617,8 @@ footer a {
 }
 .app-section h2 {
   grid-area: header;
-  margin-bottom: 48px;
   margin-top: 0;
+  margin-bottom: 48px;
 }
 .app-section .app-content {
   grid-area: content;
@@ -702,8 +706,8 @@ footer a {
 }
 .popular-track-section h2 {
   grid-column: 1/-1;
-  margin-bottom: 23px;
   margin-top: 0;
+  margin-bottom: 23px;
 }
 
 .discography-item img {
@@ -747,8 +751,8 @@ footer a {
 }
 .discography-section h2 {
   grid-column: 1/-1;
-  margin-bottom: 23px;
   margin-top: 0;
+  margin-bottom: 23px;
 }
 
 .similar-item img {
@@ -793,8 +797,8 @@ footer a {
 }
 .similar-section h2 {
   grid-column: 1/-1;
-  margin-bottom: 23px;
   margin-top: 0;
+  margin-bottom: 23px;
 }
 
 /*# sourceMappingURL=app.css.map */

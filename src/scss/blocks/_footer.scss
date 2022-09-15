@@ -22,11 +22,12 @@ footer {
 	padding-top: 62px;
 	padding-bottom: 72px;
 
-	h4 {
-		@include uppercase;
+	h2 {
+		margin-top: 0;
 		margin-bottom: 16px;
 
-		color: #fff;
+		font-size: 18px;
+		line-height: 27px;
 	}
 
 	a {

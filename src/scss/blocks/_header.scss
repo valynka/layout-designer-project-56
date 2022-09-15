@@ -42,6 +42,10 @@ header {
 	}
 
 	@media (max-width: $phone-width) {
+		li {
+			width: 100%;
+		}
+
 		&.flex {
 			flex-direction: column;
 			gap: 1px;
