@@ -212,8 +212,8 @@ header.flex {
 @media (max-width: 905px) {
   header.flex {
     flex-direction: column;
-    align-items: flex-start;
     gap: 0;
+    align-items: flex-start;
   }
 }
 header nav {
@@ -290,6 +290,10 @@ footer hr {
 footer a {
   color: #E0E0E0;
 }
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
 
 .footer-top {
   margin: 0 auto;
@@ -301,21 +305,12 @@ footer a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
-  padding-top: 62px;
-  padding-bottom: 72px;
+  padding-top: 3rem;
+  padding-bottom: 53px;
 }
 .footer-top h2 {
-  margin-top: 0;
-  margin-bottom: 16px;
   font-size: 18px;
   line-height: 27px;
-}
-.footer-top a {
-  display: block;
-}
-.footer-top p {
-  margin: 0;
-  padding: 0;
 }
 @media (max-width: 905px) {
   .footer-top {
@@ -360,14 +355,14 @@ footer a {
   max-width: 1240px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
-.footer-bottom.flex {
+.footer-bottom .flex {
   gap: 16px;
 }
-@media (max-width: 454px) {
-  .footer-bottom.flex {
+@media (max-width: 905px) {
+  .footer-bottom .flex {
     flex-direction: column;
   }
 }
