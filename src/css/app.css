@@ -201,7 +201,7 @@ header {
   padding-left: 20px;
   padding-right: 20px;
   position: absolute;
-  top: 25px;
+  top: 20px;
   right: 0;
   left: 0;
 }
@@ -291,8 +291,8 @@ footer a {
   color: #E0E0E0;
 }
 footer ul {
-  list-style-type: none;
   padding-left: 0;
+  list-style-type: none;
 }
 
 .footer-top {
