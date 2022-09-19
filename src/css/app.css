@@ -592,6 +592,9 @@ footer ul {
   height: 19px;
   align-self: center;
 }
+.news-author p {
+  margin: 0;
+}
 .news-author.flex {
   gap: 16px;
 }
