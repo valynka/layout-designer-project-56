@@ -570,11 +570,9 @@ footer ul {
 .news-footer {
   margin-top: 24px;
   font-size: 12px;
-}
-@media (max-width: 905px) {
-  .news-footer {
-    margin-top: 26px;
-  }
+  /* @media (max-width: $md-width) {
+  	margin-top: 26px;
+  } */
 }
 .news-footer.flex {
   flex-direction: column;

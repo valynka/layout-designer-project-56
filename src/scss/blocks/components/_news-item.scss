@@ -62,9 +62,9 @@
 
 	font-size: 12px;
 
-	@media (max-width: $md-width) {
+	/* @media (max-width: $md-width) {
 		margin-top: 26px;
-	}
+	} */
 
 	&.flex {
 		flex-direction: column;
@@ -90,7 +90,7 @@
 	p {
 		margin: 0;
 	}
-	
+
 	&.flex {
 		gap: 16px;
 	}
