@@ -728,6 +728,9 @@ footer ul {
   line-height: 27px;
   margin: 0;
 }
+.discography-info p {
+  margin: 0;
+}
 
 .discography-section {
   display: grid;
