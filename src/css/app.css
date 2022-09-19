@@ -776,6 +776,9 @@ footer ul {
   line-height: 27px;
   margin: 0;
 }
+.similar-info p {
+  margin: 0;
+}
 
 .similar-section {
   display: grid;
