@@ -329,9 +329,12 @@ footer ul {
 }
 
 .contact {
-  padding-bottom: 16px;
+  padding-bottom: 14px;
 }
 
+.social h2 {
+  margin-bottom: 20px;
+}
 .social.flex {
   gap: 24px;
 }
