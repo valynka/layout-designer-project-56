@@ -2,8 +2,6 @@ footer {
 	background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 
 	hr {
-		margin: 0;
-
 		color: $main-text-color;
 	}
 
@@ -26,11 +24,15 @@ footer {
 	gap: 40px;
 
 	padding-top: 3rem;
-	padding-bottom: 54px;
+	padding-bottom: 46px;
 
 	h2 {
 		font-size: 18px;
 		line-height: 27px;
+	}
+
+	p {
+		@include reset;
 	}
 
 	@media (max-width: $md-width) {
@@ -40,8 +42,12 @@ footer {
 	@media (max-width: $phone-width) {
 		grid-template-columns: repeat(1, 1fr);
 		gap: 0;
-		padding-bottom: 73px;
+		padding-bottom: 66px;
 	}
+}
+
+.contact {
+	padding-bottom: 16px;
 }
 
 .social {
@@ -81,7 +87,7 @@ footer {
 .footer-bottom {
 	@include container;
 
-	padding-top: 26px;
+	padding-top: 18px;
 	padding-bottom: 2rem;
 
 	.flex {

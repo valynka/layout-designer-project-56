@@ -1,10 +1,14 @@
 .news-item {
 	&:not(:last-child) {
-		margin-bottom: 58px;
+		margin-bottom: 65px;
+	}
+
+	@media (max-width: $md-width) {
+		margin-bottom: 70px;
 	}
 
 	&.flex {
-		gap: 50px;
+		gap: 48px;
 
 		@media (max-width: $md-width) {
 			flex-direction: column;
@@ -37,6 +41,7 @@
 
 	img {
 		width: 100%;
+		vertical-align: middle;
 
 		@media (max-width: $md-width) {
 			max-width: 570px;
@@ -57,6 +62,15 @@
 
 	font-size: 12px;
 
+	@media (max-width: $md-width) {
+		margin-top: 26px;
+	}
+
+	&.flex {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
 	.btn {
 		box-sizing: border-box;
 		width: 135px;
@@ -67,6 +81,12 @@
 }
 
 .news-author {
+	img {
+		width: 19px;
+		height: 19px;
+		align-self: center;
+	}
+	
 	&.flex {
 		gap: 16px;
 	}
