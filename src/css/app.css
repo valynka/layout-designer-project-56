@@ -512,11 +512,6 @@ footer ul {
 .news-item:not(:last-child) {
   margin-bottom: 65px;
 }
-@media (max-width: 905px) {
-  .news-item {
-    margin-bottom: 70px;
-  }
-}
 .news-item.flex {
   gap: 48px;
 }

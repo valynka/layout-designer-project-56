@@ -3,9 +3,11 @@
 		margin-bottom: 65px;
 	}
 
-	@media (max-width: $md-width) {
-		margin-bottom: 70px;
-	}
+	// @media (max-width: $md-width) {
+	// 	&:not(:last-child) {
+	// 		margin-bottom: 70px;
+	// 	}
+	// }
 
 	&.flex {
 		gap: 48px;
