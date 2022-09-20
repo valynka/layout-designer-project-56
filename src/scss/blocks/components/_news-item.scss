@@ -10,7 +10,7 @@
 	// }
 
 	&.flex {
-		gap: 48px;
+		gap: 50px;
 
 		@media (max-width: $md-width) {
 			flex-direction: column;
@@ -60,7 +60,7 @@
 }
 
 .news-footer {
-	margin-top: 24px;
+	margin-top: 26px;
 
 	font-size: 12px;
 
