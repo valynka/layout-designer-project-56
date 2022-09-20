@@ -16,4 +16,4 @@ sass-build:
 	sass ./src/scss:./src/css/
 
 deploy:
-	npx surge ./src/
+	npx surge ./build/
