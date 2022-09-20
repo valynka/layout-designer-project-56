@@ -5,13 +5,13 @@
 
 	h2 {
 		margin-top: 0;
-		margin-bottom: 50px;
+		margin-bottom: 48px;
 	}
 }
 
 .pricing {
 	&.flex {
-		gap: 47px;
+		gap: 50px;
 		justify-content: space-between;
 
 		@media (max-width: $md-width) {

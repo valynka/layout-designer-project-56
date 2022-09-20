@@ -437,7 +437,6 @@ footer ul {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1rem;
-  max-width: 369px;
   box-sizing: border-box;
 }
 .pricing-item h3 {
@@ -492,14 +491,14 @@ footer ul {
 }
 .pricing-section h2 {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .pricing {
   margin-bottom: 40px;
 }
 .pricing.flex {
-  gap: 47px;
+  gap: 50px;
   justify-content: space-between;
 }
 @media (max-width: 905px) {
