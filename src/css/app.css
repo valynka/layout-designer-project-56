@@ -437,6 +437,7 @@ footer ul {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1rem;
+  width: 33%;
   box-sizing: border-box;
 }
 .pricing-item h3 {
