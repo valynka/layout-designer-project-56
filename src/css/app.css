@@ -440,6 +440,11 @@ footer ul {
   width: 33%;
   box-sizing: border-box;
 }
+@media (max-width: 905px) {
+  .pricing-item {
+    width: 100%;
+  }
+}
 .pricing-item h3 {
   margin-bottom: 200px;
   line-height: 36px;
